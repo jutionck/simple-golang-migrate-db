@@ -1,0 +1,2 @@
+ALTER TABLE mst_user ADD COLUMN created_at TIMESTAMP;
+ALTER TABLE mst_user ADD COLUMN updated_at TIMESTAMP;
