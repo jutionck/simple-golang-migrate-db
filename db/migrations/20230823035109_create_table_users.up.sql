@@ -4,5 +4,7 @@ CREATE TABLE IF NOT EXISTS mst_user (
   password VARCHAR(100),
   role VARCHAR(50),
   reset_token VARCHAR(100),
-  is_active VARCHAR(30)
+  is_active VARCHAR(30),
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP
 );

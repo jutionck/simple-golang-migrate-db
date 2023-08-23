@@ -1,0 +1,12 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    queries:
+      - "config/db/user.sql"
+      - "config/db/customer.sql"
+      - "config/db/employee.sql"
+    schema: "config/db/schema.sql"
+    gen:
+      go:
+        package: "model"
+        out: "model"
