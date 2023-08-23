@@ -41,4 +41,8 @@ migrate
 Sampai sini kamu sudah melakukan instalasi `migrate`. Selanjutnya silahkan pilih topik lanjutan di bawah ini:
 
 1. [Getting Started](docs/1-getting-started.md)
-2.
+2. [Migrate Run](docs/2-migrate-run.md)
+3. [Migrate State](docs/3-migrate-state.md)
+4. [Migrate Down](docs/4-migrate-down.md)
+5. [Migrate Versioning](docs/5-migrate-versioning.md)
+6. [Dirty State](docs/6-dirty-state.md)
